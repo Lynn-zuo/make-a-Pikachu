@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+* ::before {
+    box-sizing: border-box;
+}
+
+* ::after {
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+.code-wrapper{
+    flex:1;
+    height:50%;
+    padding:20px;
+}
+.pre-wrapper{
+    flex:1;
+    height:50%;
+}
+#code {
+    overflow: hidden;
+    height: 100%;
+}
+.actions{
+    position: absolute;
+    right:0;
+    top:0;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin:10px;
+    border:none;
+    background:#ddd;
+    padding:8px 10px;
+}
+.actions>button.active{
+    box-shadow: 1px 1px 1px #888;
+}
+.actions>button:focus{
+    outline:none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.wrapper2 {
+    width: 60%;
+    height: 180px;
+    position: relative;
+    left: 50%;
+    top: 20px;
+    margin-left: -30%;
+}
