@@ -37,10 +37,10 @@
 .nose {
     border-width: 26px;
     border: 12px solid black;
+    border-radius: 11px;
     position: absolute;
     left: 50%;
     top: 28px;
-    border-radius: 11px;
     border-color: black transparent transparent;
     margin-left: -13px;
 }
@@ -104,11 +104,10 @@
 .uplip {
     width: 80px;
     height: 20px;
+    border: 2px solid black;
+    background: #FFDC2A;
     position: absolute;
     top: 30px;
-    border: 2px solid black;
-    position: absolute;
-    background: #FFDC2A;
 }
 
 .lipleft {
